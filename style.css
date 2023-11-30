@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  display: grid;
+  justify-items: center;
+}
+
+#kow {
+  padding: 1rem;
+  display: grid;
+  justify-content: center;
+  box-shadow: 0 0 0 0.3em #ebebeb;
+  border-radius: 13px;
+  background-color: rgb(245, 245, 245);
+}
+
+#kow > * {
+  padding: 0.5rem;
+}
+
+#container {
+  width: 38%;
+  height: fit-content;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  justify-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 0 0.3em #e6e6e6;
+  border-radius: 13px;
+}
+
+form > * {
+  margin: 1.3rem;
+}
+
+fieldset {
+  display: grid;
+  justify-items: center;
+  width: 50%;
+}
+
+#btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+}

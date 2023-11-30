@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>McDonald's Zamówienie</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Formularz zamówienia</h1>
+      <form>
+        <div id="kow">
+          <label for="name"
+            >Imie:
+            <input type="text" name="name" id="name" />
+          </label>
+
+          <label for="date"
+            >Godz. zamówienia:
+            <input type="time" name="date" id="date" />
+          </label>
+
+          <label for="set"
+            >Zestawy:
+            <select name="set" id="set">
+              <optgroup label="Dzieci">
+                <option value="2">Zestaw 1</option>
+                <option value="5">Zestaw 2</option>
+              </optgroup>
+
+              <optgroup></optgroup>
+              <optgroup label="Dorośli">
+                <option value="8">Zestaw 3</option>
+                <option value="10">Zestaw 4</option>
+                <option value="15">Zestaw 5</option>
+              </optgroup>
+            </select>
+          </label>
+        </div>
+        <fieldset>
+          <legend>Kawa</legend>
+
+          <label for="coffee"
+            >Tak:
+            <input type="checkbox" name="coffee" id="coffee" />
+          </label>
+          <label for="small"
+            >Mała:
+            <input type="radio" name="coffee" id="small" />
+          </label>
+          <label for="medium"
+            >Średnia:
+            <input type="radio" name="coffee" id="medium" />
+          </label>
+          <label for="large"
+            >Duża:
+            <input type="radio" name="coffee" id="large" checked />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Deser</legend>
+
+          <label for="deser"
+            >Tak:
+            <input type="checkbox" name="deser" id="deser" />
+          </label>
+          <label for="iceCreams"
+            >Lód:
+            <input type="radio" name="deser" id="iceCream" />
+          </label>
+          <label for="medium"
+            >Ciastko:
+            <input type="radio" name="deser" id="cookie" />
+          </label>
+          <label for="large"
+            >Shake:
+            <input type="radio" name="deser" id="Shake" checked />
+          </label>
+        </fieldset>
+        <div id="btns">
+          <input type="submit" value="Zamów" />
+          <input type="reset" value="Wyczyść" />
+        </div>
+      </form>
+    </div>
+    <footer>&copy; Filip Bednarek</footer>
+  </body>
+</html>
